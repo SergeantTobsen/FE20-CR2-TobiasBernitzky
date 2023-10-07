@@ -1,38 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .dropdown-toggle::after {
   content: none;
 }
-.icon-button {
-  position: relative;
+
+body {
+  padding-bottom: 200px;
+}
+
+.wrapper {
   display: flex;
+  height: 200px;
+  width: 100%;
+  background-image: url("./images/planner-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  color: #333333;
-  background: #dddddd;
-  border: none;
-  outline: none;
-  border-radius: 50%;
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 220px;
+    background-color: rgba(49, 47, 47, 0.5);
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    border-radius: 3px;
+  }
 }
 
-.icon-button:hover {
-  cursor: pointer;
-}
-
-.icon-button:active {
-  background: #cccccc;
-}
-
-.icon-button__badge {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 25px;
-  height: 25px;
-  background: red;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+.container1 {
+  font-size: 20px;
+  font-weight: 600;
 }
