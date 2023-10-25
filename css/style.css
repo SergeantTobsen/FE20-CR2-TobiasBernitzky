@@ -8,15 +8,12 @@
   content: none;
 }
 
-body {
-  padding-bottom: 200px;
-}
-
 .wrapper {
   display: flex;
+  margin-top: 57px;
   height: 200px;
   width: 100%;
-  background-image: url("./images/planner-banner.jpg");
+  background-image: url("../images/planner-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
